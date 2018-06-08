@@ -25,7 +25,6 @@ const uglify = require('gulp-uglify');
  * Config
  */
 const conf = {
-  port: 3000,
   rootDir: 'docs/',
   srcDir: 'src/'
 };
@@ -52,7 +51,7 @@ const paths = {
 // Static server
 gulp.task('browser-sync', function(){
   browserSync.init({
-    port: conf.port,
+    port: 3000,
     open: false,
     reloadOnRestart: true,
     ui: false,
