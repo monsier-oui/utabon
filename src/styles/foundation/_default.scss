@@ -1,0 +1,50 @@
+/*
+  reset
+ */
+
+@import 'normalize.css/normalize.css';
+
+@font-face{
+  font-family: "Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 400;
+}
+
+html{
+  font-size: 16px;
+  @include mq{
+    font-size: 12px;
+  }
+}
+
+body{
+  margin: auto;
+  width: $width-contents;
+  color: #666;
+  font-family: -apple-system, BlinkMacSystemFont, "Yu Gothic", sans-serif;
+  font-feature-settings: "palt";
+  line-height: 1.6;
+  @include mq(sm){
+    width: 95vw;
+  }
+}
+
+a{
+  color: inherit;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: bottom;
+}
+
+#{$all-buttons}{
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}

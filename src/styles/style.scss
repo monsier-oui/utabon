@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@import "bourbon";
+@import "neat";
+
+@import "foundation/variables";
+@import "foundation/default";
+
+.list-opts{
+  margin: 1em 0;
+  &__item{
+    margin-right: .5em;
+    input{
+      margin-right: .2em;
+      display: inline-block;
+    }
+  }
+}
+
+.list-tags{
+  &__item{
+    margin: .2em;
+    padding: .5em .8em .4em;
+    border: 1px solid shade($keycolor, 10%);
+    background-color: $keycolor;
+    border-radius: 10em;
+    color: #fcfcf7;
+    font-size: .8em;
+    transition: .2s;
+    &:hover{
+      background-color: tint($keycolor, 20%);
+    }
+    @include mq(sm){
+      font-size: 1.1em;
+    }
+  }
+  &.disabled{
+    display: none;
+  }
+}
+
+.yaminabe{
+  padding: 0;
+  height: 65vh;
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2.5rem;
+  flex-wrap: wrap;
+  &__item{
+    margin: 0 .2em;
+  }
+}
+
+.list-count{
+  margin: 1em 0;
+  display: block;
+}
+
+.list-songs{
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  &__item{
+    display: flex;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    @include mq(lg){
+      width: 49%;
+      &:nth-child(even){
+        margin-left: 2%;
+      }
+      &:nth-child(n+3){
+        margin-top: 1em;
+      }
+    }
+    @include mq(sm){
+      width: 100%;
+      + *{
+        margin-top: 1em;
+      }
+    }
+  }
+  &__thumb{
+    min-width: 100px;
+    @include mq(sm){
+      min-width: 70px;
+      width: 70px;
+    }
+  }
+  &__info{
+    display: flex;
+    flex-grow: 1;
+    min-width: 0;
+  }
+  &__song{
+    padding: .8em;
+    overflow: hidden;
+  }
+  &__title{
+    display: block;
+    word-wrap: break-word;
+    line-height: 1.2;
+  }
+  &__idol{
+    color: #888;
+    font-size: .8em;
+    font-weight: 100;
+    @include mq{
+      @include ellipsis;
+    }
+  }
+  &__karaoke{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-left: 1px solid #eee;
+    min-width: 9.5em;
+    &-item{
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: .5em;
+      + *{
+        border-top: 1px solid #eee;
+      }
+      > *{
+        margin: 0 .3em;
+      }
+    }
+    &-provider{
+    }
+    &-number{
+      font-size: 1.1em;
+      flex-grow: 1;
+      text-align: right;
+    }
+  }
+}
+
+.about{
+  margin-top: 5em;
+}
