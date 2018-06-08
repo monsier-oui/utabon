@@ -63,13 +63,13 @@ var songsList = new Vue({
   }
 });
 
-getDatabase('/data/data.yml')
+getDatabase('./data/data.yml')
   .then(function(data_data){
     database = data_data;
     songsList.songs = data_data;
     songsList.tags = extractList(data_data, 'tags');
 
-    getDatabase('/data/idols.yml')
+    getDatabase('./data/idols.yml')
       .then(function(data_idols){
         songsList.idols = __.union(
           extractList(data_idols, 'name'),
