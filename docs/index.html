@@ -4,8 +4,8 @@
   <title>SideM歌本</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.js"></script>
-  <link rel="stylesheet" href="/assets/styles/style.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.js"></script>
+  <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
   <h1>SideM歌本</h1>
@@ -40,7 +40,7 @@
       <li class="list-songs__item" v-bind:class="{yaminabe: yaminabe}" v-for="song in songs">
         <div class="list-songs__thumb">
           <img v-if="song.artwork" :src="song.artwork">
-          <img v-else src="/assets/images/noimage.svg">
+          <img v-else src="./assets/images/noimage.svg">
         </div>
         <div class="list-songs__info">
           <div class="list-songs__song">
@@ -67,6 +67,6 @@
     <p>デンモクで曲を探すのがめんどうすぎて作りました。シリーズ名やアイドル名を選んでフィルタリングできたり、闇鍋モードで曲番号のみ表示したりできます。もっと使いやすくしたいしまだまだアップデートしたいところはあるけどとりあえず公開します。不具合や番号ミス誤字などは<a href="https://twitter.com/oui_" target="_blank">Twitter</a>か<a href="https://marshmallow-qa.com/oui_" target="_blank">マシュマロ</a>まで投げていただけると助かります。</p>
   </div>
 
-  <script src="/assets/scripts/scripts.js"></script>
+  <script src="./assets/scripts/scripts.js"></script>
 </body>
 </html>
