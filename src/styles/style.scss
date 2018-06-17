@@ -99,14 +99,16 @@
   &__song{
     padding: .8em;
     overflow: hidden;
+    line-height: 1.2;
   }
   &__title{
     display: block;
     word-wrap: break-word;
-    line-height: 1.2;
   }
   &__idol{
     color: #888;
+    display: block;
+    margin-top: .5em;
     font-size: .8em;
     font-weight: 100;
     @include mq{
@@ -119,14 +121,15 @@
     flex-direction: column;
     align-items: stretch;
     border-left: 1px solid #eee;
-    min-width: 9.5em;
+    min-width: 9em;
     &-item{
       flex-grow: 1;
       display: flex;
+      font-size: .9em;
       align-items: center;
       justify-content: space-between;
       padding: .5em;
-      + *{
+      + #{&}{
         border-top: 1px solid #eee;
       }
       > *{

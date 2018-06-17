@@ -1,5 +1,15 @@
 ---
 -
+  title: Dazzling World
+  idol: 秋月涼
+  JOY: 145585
+  DAM: 3344-49
+-
+  title: ヒミツの珊瑚礁
+  idol: 秋月涼
+  JOY: 145586
+  DAM: 3344-50
+-
   title: Alice or Guilty
   idol: Jupiter
   JOY: 148364
@@ -333,7 +343,7 @@
     - ORIGIN@L PIECES
 -
   title: 我が混沌のサバト・マリアージュ
-  idol: アスラン＝ベルゼビュートII世
+  idol: アスラン＝ベルゼビュートⅡ世
   JOY: 691760
   DAM: 3771-53
   tags:
@@ -655,9 +665,16 @@
   JOY:
   DAM:
   tags:
+    - アニメBD特典曲
 -
   title: Reason!!
-  idol: 315 STARS
+  idol:
+    - DRAMATIC STARS
+    - Beit
+    - S.E.M
+    - High×Joker
+    - W
+    - Jupiter
   JOY: 424125
   DAM: 4059-67
   tags:
@@ -833,6 +850,7 @@
   DAM: 4402-46
   tags:
     - 315 St@rry Collaboration
+    - アニメBD特典曲
 -
   title: いつかこの瞬間に名前をつけるなら
   idol:
@@ -841,6 +859,17 @@
   JOY:
   DAM: 4403-06
   tags:
+    - アニメBD特典曲
+    - 315 St@rry Collaboration
+-
+  title: Secret! Playful! Drive!
+  idol:
+    - S.E.M
+    - Jupiter
+  JOY:
+  DAM: 4403-13
+  tags:
+    - アニメBD特典曲
     - 315 St@rry Collaboration
 -
   title: 嗚呼、情熱に星は輝く〜315プロダクション社歌〜
@@ -849,6 +878,7 @@
   JOY:
   DAM:
   tags:
+    - アニメBD特典曲
 -
   title: 永遠なる四銃士
   idol:
@@ -873,7 +903,7 @@
     - 蒼井悠介
     - 木村龍
     - 若里春名
-  JOY:
+  JOY: 429942
   DAM:
   tags:
     - WORLD TRE@SURE
