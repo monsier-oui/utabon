@@ -24,20 +24,16 @@
     <div class="list-opts">
       <label class="list-opts__item"><input type="radio" value="JOY" v-model="provider">JOY</label>
       <label class="list-opts__item"><input type="radio" value="DAM" v-model="provider">DAM</label>
-    </div>
-    <div class="list-opts">
       <label class="list-opts__item"><input type="checkbox" value="" v-model="yaminabe">闇鍋モード</label>
+    </div>
+    <div class="list-btns">
+      <button type="button" class="list-btns__item" v-on:click="random(1)">ランダム</button>
+      <button type="button" class="list-btns__item" v-on:click="random(10)">ランダム10連</button>
+      <button type="button" class="list-btns__item" v-on:click="reset">リセット</button>
     </div>
     <div class="list-tags" v-bind:class="{disabled: yaminabe}">
       <button type="button" class="list-tags__item" v-for="tag in tags" v-on:click="filter('tags', tag)">{{tag}}</button>
-    </div>
-    <div class="list-tags" v-bind:class="{disabled: yaminabe}">
       <button type="button" class="list-tags__item" v-for="idol in idols" v-on:click="filter('idol', idol)">{{idol}}</button>
-    </div>
-    <div class="list-tags">
-      <button type="button" class="list-tags__item" v-on:click="random(1)">ランダム</button>
-      <button type="button" class="list-tags__item" v-on:click="random(10)">ランダム10連</button>
-      <button type="button" class="list-tags__item" v-on:click="reset">リセット</button>
     </div>
 
     <span class="list-count" v-if="count">{{count}}曲見つかりました</span>

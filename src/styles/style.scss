@@ -7,7 +7,7 @@
 @import "foundation/default";
 
 .list-opts{
-  margin: 1em 0;
+  margin: .5em 0;
   &__item{
     margin-right: .5em;
     input{
@@ -18,17 +18,45 @@
 }
 
 .list-tags{
+  @include mq(sm){
+    margin: .5em 0;
+    padding: .5em 0;
+    max-height: 40vh;
+    overflow: auto;
+    background:
+      /* Shadow covers */
+      linear-gradient(white 30%, rgba(255,255,255,0)),
+      linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
+      /* Shadows */
+      radial-gradient(50% 0, farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)),
+      radial-gradient(50% 100%,farthest-side, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+    background:
+      /* Shadow covers */
+      linear-gradient(white 30%, rgba(255,255,255,0)),
+      linear-gradient(rgba(255,255,255,0), white 70%) 0 100%,
+      /* Shadows */
+      radial-gradient(farthest-side at 50% 0, rgba(0,0,0,.2), rgba(0,0,0,0)),
+      radial-gradient(farthest-side at 50% 100%, rgba(0,0,0,.2), rgba(0,0,0,0)) 0 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 100% 40px, 100% 40px, 100% 14px, 100% 14px;
+    /* Opera doesn't support this in the shorthand */
+    background-attachment: local, local, scroll, scroll;
+  }
   &__item{
-    margin: .2em;
-    padding: .5em .8em .4em;
-    border: 1px solid shade($keycolor, 10%);
-    background-color: $keycolor;
-    border-radius: 10em;
-    color: #fcfcf7;
+    margin: .2em .8em .2em 0;
+    padding: .3em 0 .2em;
+    // color: #fcfcf7;
     font-size: .8em;
-    transition: .2s;
-    &:hover{
-      background-color: tint($keycolor, 20%);
+    transition: .4s;
+    &:before{
+      content: '#';
+      margin-right: .2em;
+    }
+    @include mq(lg){
+      &:hover{
+        background: linear-gradient(transparent 60%, $keycolor 60%);
+      }
     }
     @include mq(sm){
       font-size: 1.1em;
@@ -36,6 +64,27 @@
   }
   &.disabled{
     display: none;
+  }
+}
+
+.list-btns{
+  &__item{
+    margin: .2em .4em .2em 0;
+    padding: .4em .8em .3em;
+    border: 1px solid shade($keycolor, 10%);
+    background-color: $keycolor;
+    border-radius: 10em;
+    color: #fcfcf7;
+    font-size: .8em;
+    transition: .2s;
+    @include mq(lg){
+      &:hover{
+        background-color: tint($keycolor, 20%);
+      }
+    }
+    @include mq(sm){
+      font-size: 1.1em;
+    }
   }
 }
 
