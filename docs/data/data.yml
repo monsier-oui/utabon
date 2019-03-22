@@ -669,12 +669,7 @@
 -
   title: Reason!!
   idol:
-    - DRAMATIC STARS
-    - Beit
-    - S.E.M
-    - High×Joker
-    - W
-    - Jupiter
+    - 315 STARS
   JOY: 424125
   DAM: 4059-67
   tags:
@@ -925,7 +920,7 @@
     - 大河タケル
     - 兜大吾
   JOY: 433147
-  DAM:
+  DAM: 4457-26
   tags:
     - WORLD TRE@SURE
 -
@@ -935,7 +930,18 @@
     - 姫野かのん
     - 舞田類
   JOY: 434873
-  DAM:
+  DAM: 4457-33
+  tags:
+    - WORLD TRE@SURE
+-
+  title: Hallo, Freunde!
+  idol:
+    - 伊集院北斗
+    - 都築圭
+    - 冬美旬
+    - アスラン＝ベルゼビュートⅡ世
+  JOY: 436511
+  DAM: 4464-38
   tags:
     - WORLD TRE@SURE
 -
@@ -951,7 +957,7 @@
   idol:
     - 315 STARS
   JOY: 434682
-  DAM:
+  DAM: 4455-31
   tags:
     - WakeMini! MUSIC COLLECTION
 -
@@ -959,6 +965,6 @@
   idol:
     - 315 STARS
   JOY: 435153
-  DAM:
+  DAM: 4456-44
   tags:
     - WakeMini! MUSIC COLLECTION
