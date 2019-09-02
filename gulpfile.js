@@ -13,7 +13,7 @@ const reload = browserSync.reload;
 
 // CSS
 const sass = require('gulp-sass');
-const pleeease = require('gulp-pleeease');
+var postcss = require('gulp-postcss');
 
 // JS
 const browserify = require('browserify');
@@ -72,8 +72,8 @@ gulp.task('bs-reload', function () {
 });
 
 // Styles
-gulp.task('build:styles', function () {
-  gulp.src(paths.src.styles)
+gulp.task('build:styles', function (done) {
+  return gulp.src(paths.src.styles)
     .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
     .pipe(sourcemaps.init())
     .pipe(sass({
@@ -84,19 +84,24 @@ gulp.task('build:styles', function () {
         require('bourbon-neat').includePaths
       ]
     }))
-    .pipe(pleeease({
-      autoprefixer: {
-        browsers: ['last 2 versions']
-      },
-      mqpacker: true
-    }))
+    .pipe(
+      postcss([
+        require('autoprefixer')({
+          grid: true
+        }),
+        require('cssnano')({
+          autoprefixer: false
+        })
+      ])
+    )
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(paths.dest.styles))
     .pipe(reload({stream: true}));
+  done();
 });
 
 // Scripts
-gulp.task('build:scripts', function() {
+gulp.task('build:scripts', function(done) {
   return browserify({
     entries: [paths.src.scripts+'scripts.js'],
     debug: true
@@ -109,6 +114,7 @@ gulp.task('build:scripts', function() {
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(paths.dest.scripts))
     .pipe(reload({stream: true}));
+  done();
 });
 
 // Clean
@@ -122,9 +128,12 @@ gulp.task('clean', del.bind(null,
 // Build
 gulp.task('build', gulp.series('clean', 'build:styles', 'build:scripts'));
 
-// Default
-gulp.task('default', gulp.series('browser-sync'), function() {
-  gulp.watch(paths.src.styles,['build:styles']);
-  gulp.watch(paths.src.scripts+'**/*.*',['build:scripts']);
-  gulp.watch(paths.dest.views,['bs-reload']);
+// Watch
+gulp.task('watch', function() {
+  gulp.watch(paths.src.styles, gulp.task('build:styles'));
+  gulp.watch(paths.src.scripts+'**/*.*', gulp.task('build:scripts'));
+  gulp.watch(paths.dest.views, gulp.task('bs-reload'));
 });
+
+// Default
+gulp.task('default', gulp.parallel('watch', 'browser-sync'));

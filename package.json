@@ -8,25 +8,27 @@
     "build": "gulp build"
   },
   "dependencies": {
+    "bourbon": "^6.0.0",
+    "bourbon-neat": "^4.0.0",
+    "js-yaml": "^3.13.1",
+    "normalize.css": "^8.0.1",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
     "browser-sync": "^2.26.7",
     "browserify": "^16.5.0",
+    "cssnano": "^4.1.10",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-notify": "^3.2.0",
-    "gulp-pleeease": "^2.0.2",
     "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
-  },
-  "devDependencies": {
-    "bourbon": "^6.0.0",
-    "bourbon-neat": "^4.0.0",
-    "js-yaml": "^3.13.1",
-    "normalize.css": "^8.0.1",
-    "underscore": "^1.9.1"
   }
 }
