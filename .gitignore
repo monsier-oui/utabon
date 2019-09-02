@@ -1,3 +1,7 @@
+### dist ###
+docs/assets/scripts/*
+docs/assets/styles/*
+
 ### Node ###
 # Logs
 logs
