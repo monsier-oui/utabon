@@ -104,9 +104,9 @@ gulp.task('build:scripts', function() {
     .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
     .pipe(source('scripts.js'))
     .pipe(buffer())
-    // .pipe(sourcemaps.init({loadMaps:true}))
-    // .pipe(uglify({output:{comments:/^!/}})).on('error', function(err){ console.log(err); })
-    // .pipe(sourcemaps.write('./'))
+    .pipe(sourcemaps.init({loadMaps:true}))
+    .pipe(uglify({output:{comments:/^!/}})).on('error', function(err){ console.log(err); })
+    .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest(paths.dest.scripts))
     .pipe(reload({stream: true}));
 });
@@ -120,10 +120,10 @@ gulp.task('clean', del.bind(null,
 ));
 
 // Build
-gulp.task('build', ['clean', 'build:styles', 'build:scripts']);
+gulp.task('build', gulp.series('clean', 'build:styles', 'build:scripts'));
 
 // Default
-gulp.task('default',['browser-sync'], function() {
+gulp.task('default', gulp.series('browser-sync'), function() {
   gulp.watch(paths.src.styles,['build:styles']);
   gulp.watch(paths.src.scripts+'**/*.*',['build:scripts']);
   gulp.watch(paths.dest.views,['bs-reload']);
