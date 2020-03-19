@@ -988,6 +988,37 @@
   tags:
     - WORLD TRE@SURE
 -
+  title: もくろみインディアNight
+  idol:
+    - 天ヶ瀬冬馬
+    - 猫柳キリオ
+    - 秋月涼
+  JOY: 444979
+  DAM: 4501-78
+  tags:
+    - WORLD TRE@SURE
+-
+  title: Your Nobility
+  idol:
+    - 桜庭薫
+    - 黒野玄武
+    - 九十九一希
+  JOY: 447255
+  DAM: 4509-36
+  tags:
+    - WORLD TRE@SURE
+-
+  title: Welcome to Japan!
+  idol:
+    - 鷹城恭二
+    - 信玄誠司
+    - 伊瀬谷四季
+    - 北村想楽
+  JOY:
+  DAM:
+  tags:
+    - WORLD TRE@SURE
+-
   title: LET'S GO!!
   idol:
     - 315 STARS
@@ -1027,3 +1058,116 @@
   DAM: 4476-32
   tags:
     - 4th ANNIVERSARY DISC
+-
+  title: ALL nOR NOTHING
+  idol:
+    - 神谷幸広
+    - 北村想楽
+    - 握野英雄
+    - 華村翔真
+    - 榊夏来
+    - 岡村直央
+  JOY: 444016
+  DAM: 4484-24
+  tags:
+    - パッション爆裂！○○大作戦
+-
+  title: PRIDE STAR
+  idol: 315 ALLSTARS
+  JOY: 445404
+  DAM: 4501-79
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: ASTERISK
+  idol: DRAMATIC STARS
+  JOY: 446345
+  DAM: 4507-28
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: オモイノウタ
+  idol: 神速一魂
+  JOY: 446344
+  DAM: 4507-23
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: Waving FLAGS
+  idol: F-LAGS
+  JOY: 446343
+  DAM: 4507-32
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: Fine Day! Find Way!
+  idol:
+    - DRAMATIC STARS
+    - 神速一魂
+    - F-LAGS
+  JOY: 446375
+  DAM: 4507-29
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: Great Sympathy
+  idol: W
+  JOY: 447514
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: Present For You!!!!! ~A day in the café~
+  idol: Café Parade
+  JOY: 447611
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: はんどめいど・きみはーと！
+  idol: もふもふえん
+  JOY: 447610
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: ミュージアムジカ
+  idol:
+    - W
+    - Café Parade
+    - もふもふえん
+  JOY: 447609
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: スリーブレス
+  idol: FRAME
+  JOY:
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: √EVOLUTION
+  idol: S.E.M
+  JOY:
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: Make New Legend
+  idol: Legenders
+  JOY:
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: Bet your intuition!
+  idol:
+    - FRAME
+    - S.E.M
+    - Legenders
+  JOY:
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
