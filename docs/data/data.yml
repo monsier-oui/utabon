@@ -1,4 +1,6 @@
 ---
+
+# SideM以前の楽曲
 -
   title: Dazzling World
   idol: 秋月涼
@@ -34,6 +36,8 @@
   idol: 伊集院北斗
   JOY: 669447
   DAM: 3205-07
+
+# ST@RTING LINE
 -
   title: BRAND NEW FIELD
   idol: Jupiter
@@ -251,6 +255,8 @@
   DAM: 3730-93
   tags:
     - ST@RTING LINE
+
+# 2nd ANNIVERSARY DISC
 -
   title: 夜空を煌めく星のように
   idol:
@@ -320,6 +326,8 @@
   DAM: 3769-27
   tags:
     - 2nd ANNIVERSARY DISC
+
+# ORIGIN@L PIECES
 -
   title: THE FIRST STAR
   idol: 天道輝
@@ -642,30 +650,8 @@
   DAM: 4062-25
   tags:
     - ORIGIN@L PIECES
--
-  title: Beyond The Dream
-  idol: 315 STARS
-  JOY: 692693
-  DAM: 3777-87
--
-  title: Genesis Contact
-  idol:
-    - 冬美旬
-    - 天ヶ瀬冬馬
-    - 東雲荘一郎
-    - 華村翔真
-    - 都築圭
-  JOY:
-  DAM: 3791-73
-  tags:
-    - パッション爆裂！○○大作戦
--
-  title: DIVE to GRAVITATION
-  idol: Jupiter
-  JOY:
-  DAM:
-  tags:
-    - アニメBD特典曲
+
+# ANIMATION PROJECT
 -
   title: Reason!!
   idol:
@@ -743,6 +729,55 @@
   DAM:
   tags:
     - ANIMATION PROJECT
+
+# アニメBD特典曲
+-
+  title: DIVE to GRAVITATION
+  idol: Jupiter
+  JOY:
+  DAM:
+  tags:
+    - アニメBD特典曲
+-
+  title: 冬の日のエトランゼ
+  idol:
+    - DRAMATIC STARS
+    - Beit
+  JOY:
+  DAM: 4402-46
+  tags:
+    - 315 St@rry Collaboration
+    - アニメBD特典曲
+-
+  title: いつかこの瞬間に名前をつけるなら
+  idol:
+    - High×Joker
+    - W
+  JOY:
+  DAM: 4403-06
+  tags:
+    - アニメBD特典曲
+    - 315 St@rry Collaboration
+-
+  title: Secret! Playful! Drive!
+  idol:
+    - S.E.M
+    - Jupiter
+  JOY:
+  DAM: 4403-13
+  tags:
+    - アニメBD特典曲
+    - 315 St@rry Collaboration
+-
+  title: 嗚呼、情熱に星は輝く〜315プロダクション社歌〜
+  idol:
+    - プロデューサー＆山村賢 with 齋藤孝司
+  JOY:
+  DAM: 4424-52
+  tags:
+    - アニメBD特典曲
+
+# 3rd ANNIVERSARY DISC
 -
   title: Reversed Masquerade
   idol: Café Parade
@@ -836,44 +871,8 @@
   DAM: 4405-84
   tags:
     - 3rd ANNIVERSARY DISC
--
-  title: 冬の日のエトランゼ
-  idol:
-    - DRAMATIC STARS
-    - Beit
-  JOY:
-  DAM: 4402-46
-  tags:
-    - 315 St@rry Collaboration
-    - アニメBD特典曲
--
-  title: いつかこの瞬間に名前をつけるなら
-  idol:
-    - High×Joker
-    - W
-  JOY:
-  DAM: 4403-06
-  tags:
-    - アニメBD特典曲
-    - 315 St@rry Collaboration
--
-  title: Secret! Playful! Drive!
-  idol:
-    - S.E.M
-    - Jupiter
-  JOY:
-  DAM: 4403-13
-  tags:
-    - アニメBD特典曲
-    - 315 St@rry Collaboration
--
-  title: 嗚呼、情熱に星は輝く〜315プロダクション社歌〜
-  idol:
-    - プロデューサー＆山村賢 with 齋藤孝司
-  JOY:
-  DAM: 4424-52
-  tags:
-    - アニメBD特典曲
+
+# WORLD TRE@SURE
 -
   title: 永遠なる四銃士
   idol:
@@ -883,13 +882,6 @@
     - 葛之葉雨彦
   JOY: 429194
   DAM: 4424-18
-  tags:
-    - WORLD TRE@SURE
--
-  title: MEET THE WORLD
-  idol: 315 STARS
-  JOY: 429193
-  DAM: 4424-66
   tags:
     - WORLD TRE@SURE
 -
@@ -1019,6 +1011,15 @@
   tags:
     - WORLD TRE@SURE
 -
+  title: MEET THE WORLD
+  idol: 315 STARS
+  JOY: 429193
+  DAM: 4424-66
+  tags:
+    - WORLD TRE@SURE
+
+# WakeMini! MUSIC COLLECTION
+-
   title: LET'S GO!!
   idol:
     - 315 STARS
@@ -1042,35 +1043,24 @@
   DAM: 4456-44
   tags:
     - WakeMini! MUSIC COLLECTION
+
+# 4th ANNIVERSARY DISC
 -
   title: LIVE in your SMILE
-  idol:
-    - 315 STARS
+  idol: 315 STARS
   JOY:
   DAM: 4476-31
   tags:
     - 4th ANNIVERSARY DISC
 -
   title: DREAM JOURNEY
-  idol:
-    - 315 STARS
+  idol: 315 STARS
   JOY:
   DAM: 4476-32
   tags:
     - 4th ANNIVERSARY DISC
--
-  title: ALL nOR NOTHING
-  idol:
-    - 神谷幸広
-    - 北村想楽
-    - 握野英雄
-    - 華村翔真
-    - 榊夏来
-    - 岡村直央
-  JOY: 444016
-  DAM: 4484-24
-  tags:
-    - パッション爆裂！○○大作戦
+
+# 5th ANNIVERSARY DISC
 -
   title: PRIDE STAR
   idol: 315 ALLSTARS
@@ -1171,3 +1161,37 @@
   DAM:
   tags:
     - 5th ANNIVERSARY DISC
+
+# パッション爆裂！○○大作戦
+-
+  title: Genesis Contact
+  idol:
+    - 冬美旬
+    - 天ヶ瀬冬馬
+    - 東雲荘一郎
+    - 華村翔真
+    - 都築圭
+  JOY:
+  DAM: 3791-73
+  tags:
+    - パッション爆裂！○○大作戦
+-
+  title: ALL nOR NOTHING
+  idol:
+    - 神谷幸広
+    - 北村想楽
+    - 握野英雄
+    - 華村翔真
+    - 榊夏来
+    - 岡村直央
+  JOY: 444016
+  DAM: 4484-24
+  tags:
+    - パッション爆裂！○○大作戦
+
+# その他
+-
+  title: Beyond The Dream
+  idol: 315 ALLSTARS
+  JOY: 692693
+  DAM: 3777-87
