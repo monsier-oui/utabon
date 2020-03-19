@@ -33,7 +33,8 @@ var songsList = new Vue({
       this.count = songs.count;
     },
     random: function(n){
-      this.songs = random(database, n);
+      var data = this.provider ? database_filtered : database;
+      this.songs = random(data, n);
       this.count = null;
     },
     reset: function(){
