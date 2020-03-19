@@ -117,6 +117,7 @@
     display: flex;
     border: 1px solid #eee;
     border-radius: 5px;
+    overflow: hidden;
     @include mq(lg){
       width: 49%;
       &:nth-child(even){
@@ -159,7 +160,6 @@
     display: block;
     margin-top: .5em;
     font-size: .8em;
-    font-weight: 100;
     @include mq{
       @include ellipsis;
     }
