@@ -1125,14 +1125,14 @@
   title: Present For You!!!!! ~A day in the café~
   idol: Café Parade
   JOY: 447611
-  DAM:
+  DAM: 4513-13
   tags:
     - 5th ANNIVERSARY DISC
 -
   title: はんどめいど・きみはーと！
   idol: もふもふえん
   JOY: 447610
-  DAM:
+  DAM: 4513-32
   tags:
     - 5th ANNIVERSARY DISC
 -
@@ -1142,28 +1142,28 @@
     - Café Parade
     - もふもふえん
   JOY: 447609
-  DAM:
+  DAM: 4510-49
   tags:
     - 5th ANNIVERSARY DISC
 -
   title: スリーブレス
   idol: FRAME
-  JOY:
-  DAM:
+  JOY: 447972
+  DAM: 4510-69
   tags:
     - 5th ANNIVERSARY DISC
 -
   title: √EVOLUTION
   idol: S.E.M
-  JOY:
-  DAM:
+  JOY: 448063
+  DAM: 4513-20
   tags:
     - 5th ANNIVERSARY DISC
 -
   title: Make New Legend
   idol: Legenders
-  JOY:
-  DAM:
+  JOY: 448062
+  DAM: 4513-17
   tags:
     - 5th ANNIVERSARY DISC
 -
@@ -1172,6 +1172,37 @@
     - FRAME
     - S.E.M
     - Legenders
+  JOY: 448061
+  DAM: 4513-14
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: 運命光年
+  idol: Jupiter
+  JOY:
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: Avenue Illusion!
+  idol: Beit
+  JOY:
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: PROOF OF ONESELF
+  idol: THE 虎牙道
+  JOY:
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: いつかのトライアングル
+  idol:
+    - Jupiter
+    - Beit
+    - THE 虎牙道
   JOY:
   DAM:
   tags:
