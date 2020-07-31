@@ -10,13 +10,13 @@
   "dependencies": {
     "bourbon": "^7.0.0",
     "bourbon-neat": "^4.0.0",
-    "js-yaml": "^3.13.1",
+    "js-yaml": "^3.14.0",
     "normalize.css": "^8.0.1",
     "underscore": "^1.10.2"
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.6",
-    "browser-sync": "^2.26.7",
+    "autoprefixer": "^9.8.6",
+    "browser-sync": "^2.26.12",
     "browserify": "^16.5.1",
     "cssnano": "^4.1.10",
     "del": "^5.1.0",
