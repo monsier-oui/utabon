@@ -726,7 +726,7 @@
   title: GLORIOUS RO@D
   idol: 315 STARS
   JOY: 426742
-  DAM:
+  DAM: 4476-44
   tags:
     - ANIMATION PROJECT
 
@@ -1021,8 +1021,8 @@
     - 信玄誠司
     - 伊瀬谷四季
     - 北村想楽
-  JOY:
-  DAM:
+  JOY: 448238
+  DAM: 4513-59
   tags:
     - WORLD TRE@SURE
 -
@@ -1118,7 +1118,7 @@
   title: Great Sympathy
   idol: W
   JOY: 447514
-  DAM:
+  DAM: 4513-21
   tags:
     - 5th ANNIVERSARY DISC
 -
@@ -1177,23 +1177,44 @@
   tags:
     - 5th ANNIVERSARY DISC
 -
+  title: mermaid fermata
+  idol: Altessimo
+  JOY: 448981
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: 祝彩！
+  idol: 彩
+  JOY: 449050
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
+  title: SEASON IN THE FIVE
+  idol: High×Joker
+  JOY: 448978
+  DAM:
+  tags:
+    - 5th ANNIVERSARY DISC
+-
   title: 運命光年
   idol: Jupiter
-  JOY:
+  JOY: 485757
   DAM:
   tags:
     - 5th ANNIVERSARY DISC
 -
   title: Avenue Illusion!
   idol: Beit
-  JOY:
+  JOY: 485756
   DAM:
   tags:
     - 5th ANNIVERSARY DISC
 -
   title: PROOF OF ONESELF
   idol: THE 虎牙道
-  JOY:
+  JOY: 485755
   DAM:
   tags:
     - 5th ANNIVERSARY DISC
@@ -1203,7 +1224,7 @@
     - Jupiter
     - Beit
     - THE 虎牙道
-  JOY:
+  JOY: 485754
   DAM:
   tags:
     - 5th ANNIVERSARY DISC
@@ -1232,6 +1253,19 @@
     - 岡村直央
   JOY: 444016
   DAM: 4484-24
+  tags:
+    - パッション爆裂！○○大作戦
+-
+  title: Braver Beat
+  idol:
+    - 大河タケル
+    - 古論クリス
+    - 秋山隼人
+    - 橘志狼
+    - 舞田類
+    - 兜大吾
+  JOY:
+  DAM:
   tags:
     - パッション爆裂！○○大作戦
 
