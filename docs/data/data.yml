@@ -1025,37 +1025,37 @@
 - title: mermaid fermata
   idol: Altessimo
   JOY: 448981
-  DAM:
+  DAM: 4520-05
   tags:
     - 5th ANNIVERSARY DISC
 - title: 祝彩！
   idol: 彩
   JOY: 449050
-  DAM:
+  DAM: 4520-32
   tags:
     - 5th ANNIVERSARY DISC
 - title: SEASON IN THE FIVE
   idol: High×Joker
   JOY: 448978
-  DAM:
+  DAM: 4520-12
   tags:
     - 5th ANNIVERSARY DISC
 - title: 運命光年
   idol: Jupiter
   JOY: 485757
-  DAM:
+  DAM: 4521-93
   tags:
     - 5th ANNIVERSARY DISC
 - title: Avenue Illusion!
   idol: Beit
   JOY: 485756
-  DAM:
+  DAM: 4521-95
   tags:
     - 5th ANNIVERSARY DISC
 - title: PROOF OF ONESELF
   idol: THE 虎牙道
   JOY: 485755
-  DAM:
+  DAM: 4521-92
   tags:
     - 5th ANNIVERSARY DISC
 - title: いつかのトライアングル
@@ -1064,9 +1064,89 @@
     - Beit
     - THE 虎牙道
   JOY: 485754
-  DAM:
+  DAM: 4521-94
   tags:
     - 5th ANNIVERSARY DISC
+
+# NEW STAGE EPISODE
+- title: NEXT STAGE!
+  idol: 315 ALLSTERS
+  JOY: 486841
+  DAM: 4532-58
+  tags:
+    - NEW STAGE EPISODE
+- title: わんだー×まーちんぐ！
+  idol: もふもふえん
+  JOY: 486843
+  DAM: 4529-60
+  tags:
+    - NEW STAGE EPISODE
+- title: Hungry?
+  idol: THE 虎牙道
+  JOY: 486842
+  DAM: 4529-58
+  tags:
+    - NEW STAGE EPISODE
+- title: Radiant Letter
+  idol: Jupiter
+  JOY: 487312
+  DAM: 4532-59
+  tags:
+    - NEW STAGE EPISODE
+- title: Delicious Delivery
+  idol: Café Parade
+  JOY: 487311
+  DAM: 4532-56
+  tags:
+    - NEW STAGE EPISODE
+- title: Secret Ornament
+  idol: Beit
+  JOY:
+  DAM: 4534-18
+  tags:
+    - NEW STAGE EPISODE
+- title: 喜怒哀楽万国共通-Burn it up!-
+  idol: 神速一魂
+  JOY:
+  DAM: 4534-17
+  tags:
+    - NEW STAGE EPISODE
+- title: Attacca Scenery
+  idol: Altessimo
+  JOY:
+  DAM: 4534-62
+  tags:
+    - NEW STAGE EPISODE
+- title: Smiles In Wonderland!
+  idol: High×Joker
+  JOY:
+  DAM: 4534-66
+  tags:
+    - NEW STAGE EPISODE
+- title: YELL OF DELIGHT
+  idol: W
+  JOY:
+  DAM: 4537-24
+  tags:
+    - NEW STAGE EPISODE
+- title: FOCUS ON YOUR LIFE
+  idol: Legenders
+  JOY:
+  DAM: 4537-29
+  tags:
+    - NEW STAGE EPISODE
+- title: リビングアイズヒーロー
+  idol: FRAME
+  JOY:
+  DAM: 4541-12
+  tags:
+    - NEW STAGE EPISODE
+- title: GOOD NEW MORNING
+  idol: DRAMATIC STARS
+  JOY:
+  DAM: 4541-11
+  tags:
+    - NEW STAGE EPISODE
 
 # パッション爆裂！○○大作戦
 - title: Genesis Contact
@@ -1100,8 +1180,8 @@
     - 橘志狼
     - 舞田類
     - 兜大吾
-  JOY:
-  DAM:
+  JOY: 487045
+  DAM: 4529-55
   tags:
     - パッション爆裂！○○大作戦
 
@@ -1110,3 +1190,7 @@
   idol: 315 ALLSTARS
   JOY: 692693
   DAM: 3777-87
+- title: なんどでも笑おう
+  idol: THE IDOLM@STER FIVE STARS!!!!!
+  JOY: 486586
+  DAM: 4527-66
