@@ -899,22 +899,19 @@
 
 # WakeMini! MUSIC COLLECTION
 - title: LET'S GO!!
-  idol:
-    - 315 STARS
+  idol: 315 STARS
   JOY: 434602
   DAM: 4455-30
   tags:
     - WakeMini! MUSIC COLLECTION
 - title: Friendly Smile
-  idol:
-    - 315 STARS
+  idol: 315 STARS
   JOY: 434682
   DAM: 4455-31
   tags:
     - WakeMini! MUSIC COLLECTION
 - title: POKER FAITH -ポーカーフェイス-
-  idol:
-    - 315 STARS
+  idol: 315 STARS
   JOY: 435153
   DAM: 4456-44
   tags:
@@ -1079,7 +1076,7 @@
 
 # NEW STAGE EPISODE
 - title: NEXT STAGE!
-  idol: 315 ALLSTERS
+  idol: 315 ALLSTARS
   JOY: 486841
   DAM: 4532-58
   tags:
@@ -1110,11 +1107,11 @@
     - NEW STAGE EPISODE
 - title: Secret Ornament
   idol: Beit
-  JOY:
+  JOY: 493966
   DAM: 4534-18
   tags:
     - NEW STAGE EPISODE
-- title: 喜怒哀楽万国共通-Burn it up!-
+- title: 喜怒哀楽万国共通 -Burn it up!-
   idol: 神速一魂
   JOY:
   DAM: 4534-17
@@ -1156,6 +1153,100 @@
   DAM: 4541-11
   tags:
     - NEW STAGE EPISODE
+- title: Happy's Birthday
+  idol: S.E.M
+  JOY:
+  DAM: 4544-13
+  tags:
+    - NEW STAGE EPISODE
+- title: 装 -So Beautiful-
+  idol: 彩
+  JOY:
+  DAM: 4544-12
+  tags:
+    - NEW STAGE EPISODE
+- title: Hope's Journey
+  idol: F-LAGS
+  JOY:
+  DAM: 4544-14
+  tags:
+    - NEW STAGE EPISODE
+
+# GLOWING SIGN@L
+- title: Glowing Smiles!
+  idol: 315 ALLSTARS
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: We're the one
+  idol: C.FIRST
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Not Alone
+  idol: C.FIRST
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Plus 1 Good Day!
+  idol: FRAME
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: SOOTHING PLACE
+  idol: FRAME
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Pavé Étoiles
+  idol: Café Parade
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Teatime Cliché
+  idol: Café Parade
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Time Before Time
+  idol: Legenders
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: PERMAFROST
+  idol: Legenders
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+
+# PASSION@TE FORMATION
+- title: RED HOT BEAT!!
+  idol: 315 STARS
+  JOY:
+  DAM:
+  tags:
+    - PASSION@TE FORMATION
+- title: リトルハピネス
+  idol: 315 STARS
+  JOY:
+  DAM:
+  tags:
+    - PASSION@TE FORMATION
+- title: ANYWHERE
+  idol: 315 STARS
+  JOY:
+  DAM:
+  tags:
+    - PASSION@TE FORMATION
 
 # パッション爆裂！○○大作戦
 - title: Genesis Contact
@@ -1193,6 +1284,18 @@
   DAM: 4529-55
   tags:
     - パッション爆裂！○○大作戦
+- title: Stories
+  idol:
+    - 山下次郎
+    - ピエール
+    - 冬美旬
+    - 黒野玄武
+    - 卯月巻緒
+    - 北村想楽
+  JOY:
+  DAM: 4567-36
+  tags:
+    - パッション爆裂！○○大作戦
 
 # その他
 - title: Beyond The Dream
@@ -1203,3 +1306,7 @@
   idol: THE IDOLM@STER FIVE STARS!!!!!
   JOY: 486586
   DAM: 4527-66
+- title: VOY@GER
+  idol: THE IDOLM@STER FIVE STARS!!!!!
+  JOY: 492198
+  DAM: 4551-90

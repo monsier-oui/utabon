@@ -1,139 +1,99 @@
 ---
--
+- unit: Jupiter
   name: 天ヶ瀬冬馬
-  unit: Jupiter
--
+- unit: Jupiter
   name: 伊集院北斗
-  unit: Jupiter
--
+- unit: Jupiter
   name: 御手洗翔太
-  unit: Jupiter
--
+- unit: DRAMATIC STARS
   name: 天道輝
-  unit: DRAMATIC STARS
--
+- unit: DRAMATIC STARS
   name: 桜庭薫
-  unit: DRAMATIC STARS
--
+- unit: DRAMATIC STARS
   name: 柏木翼
-  unit: DRAMATIC STARS
--
+- unit: Altessimo
   name: 都築圭
-  unit: Altessimo
--
+- unit: Altessimo
   name: 神楽麗
-  unit: Altessimo
--
+- unit: Beit
   name: 鷹城恭二
-  unit: Beit
--
+- unit: Beit
   name: ピエール
-  unit: Beit
--
+- unit: Beit
   name: 渡辺みのり
-  unit: Beit
--
+- unit: W
   name: 蒼井享介
-  unit: W
--
+- unit: W
   name: 蒼井悠介
-  unit: W
--
+- unit: FRAME
   name: 握野英雄
-  unit: FRAME
--
+- unit: FRAME
   name: 木村龍
-  unit: FRAME
--
+- unit: FRAME
   name: 信玄誠司
-  unit: FRAME
--
+- unit: 彩
   name: 猫柳キリオ
-  unit: 彩
--
+- unit: 彩
   name: 華村翔真
-  unit: 彩
--
+- unit: 彩
   name: 清澄九郎
-  unit: 彩
--
+- unit: High×Joker
   name: 秋山隼人
-  unit: High×Joker
--
+- unit: High×Joker
   name: 冬美旬
-  unit: High×Joker
--
+- unit: High×Joker
   name: 榊夏来
-  unit: High×Joker
--
+- unit: High×Joker
   name: 若里春名
-  unit: High×Joker
--
+- unit: High×Joker
   name: 伊瀬谷四季
-  unit: High×Joker
--
+- unit: 神速一魂
   name: 紅井朱雀
-  unit: 神速一魂
--
+- unit: 神速一魂
   name: 黒野玄武
-  unit: 神速一魂
--
+- unit: Café Parade
   name: 神谷幸広
-  unit: Café Parade
--
+- unit: Café Parade
   name: 東雲荘一郎
-  unit: Café Parade
--
+- unit: Café Parade
   name: アスラン＝ベルゼビュートⅡ世
-  unit: Café Parade
--
+- unit: Café Parade
   name: 卯月巻緒
-  unit: Café Parade
--
+- unit: Café Parade
   name: 水嶋咲
-  unit: Café Parade
--
+- unit: もふもふえん
   name: 岡村直央
-  unit: もふもふえん
--
+- unit: もふもふえん
   name: 橘志狼
-  unit: もふもふえん
--
+- unit: もふもふえん
   name: 姫野かのん
-  unit: もふもふえん
--
+- unit: S.E.M
   name: 硲道夫
-  unit: S.E.M
--
+- unit: S.E.M
   name: 舞田類
-  unit: S.E.M
--
+- unit: S.E.M
   name: 山下次郎
-  unit: S.E.M
--
+- unit: THE 虎牙道
   name: 大河タケル
-  unit: THE 虎牙道
--
+- unit: THE 虎牙道
   name: 牙崎漣
-  unit: THE 虎牙道
--
+- unit: THE 虎牙道
   name: 円城寺道流
-  unit: THE 虎牙道
--
+- unit: F-LAGS
   name: 秋月涼
-  unit: F-RAGS
--
+- unit: F-LAGS
   name: 九十九一希
-  unit: F-RAGS
--
+- unit: F-LAGS
   name: 兜大吾
-  unit: F-RAGS
--
+- unit: Legenders
   name: 葛之葉雨彦
-  unit: Legenders
--
+- unit: Legenders
   name: 北村想楽
-  unit: Legenders
--
+- unit: Legenders
   name: 古論クリス
-  unit: Legenders
+- unit: C.FIRST
+  name: 天峰秀
+- unit: C.FIRST
+  name: 花園百々人
+- unit: C.FIRST
+  name: 眉見鋭心
