@@ -6,5 +6,11 @@ module.exports = {
       md: '560px',
       lg: '1000px',
     },
+    extend: {
+      colors: {
+        keycolor: '#00b979',
+        twitter: '#1da1f2',
+      },
+    },
   },
 };

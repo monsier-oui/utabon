@@ -173,14 +173,14 @@
     </label>
   {/each}
 </ul>
-<div class="mt-3 flex flex-wrap gap-2">
+<div class="mt-3 flex flex-wrap gap-4">
   <button
-    class="py-1 px-3 text-white text-sm font-bold bg-sky-500 rounded-full"
+    class="py-2 px-5 text-white text-sm font-bold bg-keycolor rounded-full"
     on:click={random}>
     ランダム10連
   </button>
   <button
-    class="py-1 px-3 text-white text-sm font-bold bg-sky-500 rounded-full"
+    class="py-2 px-5 text-white text-sm font-bold bg-neutral-400 rounded-full"
     on:click={reset}>
     リセット
   </button>
