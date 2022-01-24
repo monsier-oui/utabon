@@ -107,8 +107,8 @@
 
   // リセット
   const reset = () => {
-    $songs = songsData;
     filter.reset();
+    getSongs();
   };
 
   onMount(async () => {
