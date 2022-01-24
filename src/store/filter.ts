@@ -5,4 +5,11 @@ type Filter = {
   idol: string[];
 };
 
-export const filter = writable<Filter>({ tags: '', idol: [] });
+const useStore = () => {
+  const { subscribe, set } = writable<Filter>({ tags: '', idol: [] });
+  const reset = () => set({ tags: '', idol: [] });
+
+  return { subscribe, set, reset };
+};
+
+export const filter = useStore();

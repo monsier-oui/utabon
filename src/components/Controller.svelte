@@ -108,7 +108,7 @@
   // リセット
   const reset = () => {
     $songs = songsData;
-    $filter = { tags: '', idol: [] };
+    filter.reset();
   };
 
   onMount(async () => {
