@@ -1,35 +1,6 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import shuffle from 'shuffle-array';
-
-  // 型定義
-  import type { Song } from '../@types/';
-
-  // データベース取得
-  import songsYaml from '../database/songs.yaml';
-  const songsData: Song[] = Object.values(songsYaml);
-  const tags: string[] = Array.from(
-    new Set(
-      songsData
-        .filter((song: Song) => song.tags)
-        .map((song: Song) => song.tags)
-        .flat()
-    )
-  );
-  import idolsYaml from '../database/idols.yaml';
-  const idols: string[] = Array.from(
-    new Set(
-      Object.values(idolsYaml)
-        .map((value) => Object.values(value))
-        .flat()
-        .concat(
-          songsData
-            .filter((song: Song) => song.idol)
-            .map((song: Song) => song.idol)
-            .flat()
-        )
-    )
-  );
+  export let tags: string[];
+  export let idols: string[];
 
   // ストア
   import { provider } from '../store/provider';
@@ -40,7 +11,7 @@
   // 機種切り替え
   const toggleProvider = (event) => {
     provider.set(event.currentTarget.value);
-    getSongs();
+    songs.update();
   };
 
   // 闇鍋モード切り替え
@@ -67,53 +38,20 @@
       }
     }
 
-    filter.set(Object.assign($filter, { tags, idol }));
-    getSongs();
-  };
-
-  // 絞り込み
-  const getSongs = () => {
-    let result = songsData;
-    $songs = [];
-
-    if ($provider !== '') {
-      result = result.filter((song: Song) => song[$provider] !== null);
-    }
-    if ($filter.tags !== '') {
-      result = result.filter(
-        (song: Song) => song.tags && song.tags.includes($filter.tags)
-      );
-    }
-    if ($filter.idol.length > 0) {
-      result = result.filter((song: Song) => {
-        const x = $filter.idol.concat(song.idol);
-        const y = Array.from(new Set(x));
-
-        return x.length !== y.length;
-      });
-    }
-
-    $songs = result;
+    filter.update({ tags, idol });
+    songs.update();
   };
 
   // ランダム
   const random = () => {
-    let result = songsData;
-    if ($provider !== '') {
-      result = result.filter((song: Song) => song[$provider] !== null);
-    }
-    $songs = shuffle.pick(result, { copy: true, picks: 10 });
+    songs.random(10);
   };
 
   // リセット
   const reset = () => {
     filter.reset();
-    getSongs();
+    songs.update();
   };
-
-  onMount(async () => {
-    getSongs();
-  });
 </script>
 
 <div class="mt-4 flex">

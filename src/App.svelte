@@ -10,6 +10,8 @@
   // 変数定義
   export const title = 'SideM歌本';
   export const url: string = location.href;
+  export let tags: string[];
+  export let idols: string[];
 </script>
 
 <Tailwindcss />
@@ -46,7 +48,7 @@
   </a>
 </header>
 <main class="container mx-auto">
-  <Controller />
+  <Controller {tags} {idols} />
 
   <div class="mt-8">
     {#if $songs.length > 0}
