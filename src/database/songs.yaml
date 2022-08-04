@@ -1113,61 +1113,61 @@
     - NEW STAGE EPISODE
 - title: 喜怒哀楽万国共通 -Burn it up!-
   idol: 神速一魂
-  JOY:
+  JOY: 496473
   DAM: 4534-17
   tags:
     - NEW STAGE EPISODE
 - title: Attacca Scenery
   idol: Altessimo
-  JOY:
+  JOY: 498602
   DAM: 4534-62
   tags:
     - NEW STAGE EPISODE
 - title: Smiles In Wonderland!
   idol: High×Joker
-  JOY:
+  JOY: 498601
   DAM: 4534-66
   tags:
     - NEW STAGE EPISODE
 - title: YELL OF DELIGHT
   idol: W
-  JOY:
+  JOY: 493968
   DAM: 4537-24
   tags:
     - NEW STAGE EPISODE
 - title: FOCUS ON YOUR LIFE
   idol: Legenders
-  JOY:
+  JOY: 493967
   DAM: 4537-29
   tags:
     - NEW STAGE EPISODE
 - title: リビングアイズヒーロー
   idol: FRAME
-  JOY:
+  JOY: 498754
   DAM: 4541-12
   tags:
     - NEW STAGE EPISODE
 - title: GOOD NEW MORNING
   idol: DRAMATIC STARS
-  JOY:
+  JOY: 498660
   DAM: 4541-11
   tags:
     - NEW STAGE EPISODE
 - title: Happy's Birthday
   idol: S.E.M
-  JOY:
+  JOY: 498755
   DAM: 4544-13
   tags:
     - NEW STAGE EPISODE
 - title: 装 -So Beautiful-
   idol: 彩
-  JOY:
+  JOY: 498820
   DAM: 4544-12
   tags:
     - NEW STAGE EPISODE
 - title: Hope's Journey
   idol: F-LAGS
-  JOY:
+  JOY: 498819
   DAM: 4544-14
   tags:
     - NEW STAGE EPISODE
@@ -1176,53 +1176,125 @@
 - title: Glowing Smiles!
   idol: 315 ALLSTARS
   JOY:
-  DAM:
+  DAM: 4558-31
   tags:
     - GLOWING SIGN@L
 - title: We're the one
   idol: C.FIRST
-  JOY:
-  DAM:
+  JOY: 495497
+  DAM: 4572-77
   tags:
     - GLOWING SIGN@L
 - title: Not Alone
   idol: C.FIRST
   JOY:
-  DAM:
+  DAM: 4572-78
   tags:
     - GLOWING SIGN@L
 - title: Plus 1 Good Day!
   idol: FRAME
   JOY:
-  DAM:
+  DAM: 4576-16
   tags:
     - GLOWING SIGN@L
 - title: SOOTHING PLACE
   idol: FRAME
   JOY:
-  DAM:
+  DAM: 4576-17
   tags:
     - GLOWING SIGN@L
 - title: Pavé Étoiles
   idol: Café Parade
-  JOY:
-  DAM:
+  JOY: 497866
+  DAM: 4581-65
   tags:
     - GLOWING SIGN@L
 - title: Teatime Cliché
   idol: Café Parade
   JOY:
-  DAM:
+  DAM: 4581-64
   tags:
     - GLOWING SIGN@L
 - title: Time Before Time
   idol: Legenders
-  JOY:
-  DAM:
+  JOY: 496960
+  DAM: 4601-09
   tags:
     - GLOWING SIGN@L
 - title: PERMAFROST
   idol: Legenders
+  JOY:
+  DAM: 4601-10
+  tags:
+    - GLOWING SIGN@L
+- title: いとをかし！～一彩×合彩～
+  idol: 彩
+  JOY: 497880
+  DAM: 4584-52
+  tags:
+    - GLOWING SIGN@L
+- title: 彩リノ歌
+  idol: 彩
+  JOY:
+  DAM: 4584-53
+  tags:
+    - GLOWING SIGN@L
+- title: はるかぜバトン
+  idol: もふもふえん
+  JOY: 498588
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: そだてっ！たいむかぷせる
+  idol: もふもふえん
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Infinite Octave!
+  idol: Altessimo
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Sign of Hope
+  idol: Altessimo
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: K.now O.nly
+  idol: THE 虎牙道
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: CATCH ME IF YOU CAN
+  idol: THE 虎牙道
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Made in「 ♪ 」
+  idol: F-LAGS
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Casually!
+  idol: F-LAGS
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: ROUTE77
+  idol: 神速一魂
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: タソガレドキ、Bluesy
+  idol: 神速一魂
   JOY:
   DAM:
   tags:
@@ -1247,6 +1319,68 @@
   DAM:
   tags:
     - PASSION@TE FORMATION
+
+# 49 ELEMENTS
+- title: キセキ的 STARRY-TUNE!!!!!
+  idol: High×Joker
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: HEAT BEAT “Identity”
+  idol: 秋山隼人
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: SCOREBOOK Memories
+  idol: 冬美旬
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: ダイヤモンド・メゾフォルテ
+  idol: 榊夏来
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: Like a Rolling Donuts!!
+  idol: 若里春名
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: ハイパービリーバー!!
+  idol: 伊瀬谷四季
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: Trust me now
+  idol: C.FIRST
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: GO NEXT
+  idol: 天峰秀
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: Hundreds Color
+  idol: 花園百々人
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: KARMA
+  idol: 眉見鋭心
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
 
 # パッション爆裂！○○大作戦
 - title: Genesis Contact
