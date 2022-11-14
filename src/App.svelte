@@ -20,7 +20,8 @@
   <a
     href="https://twitter.com/share?text={title}&url={url}&hashtags={title}"
     class="inline-flex items-center ml-auto py-1 px-3 text-white text-sm font-bold bg-twitter rounded-full"
-    target="_blank">
+    target="_blank"
+    rel="noopener noreferrer">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xml:space="preserve"
@@ -35,7 +36,8 @@
   <a
     href="https://github.com/monsier-oui/utabon"
     class="ml-2 sm:hidden"
-    target="_blank">
+    target="_blank"
+    rel="noopener noreferrer">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="43.427"
@@ -68,7 +70,11 @@
   <p class="mt-4">
     デンモクで曲を探すのがめんどうすぎて作りました。シリーズ名やアイドル名を選んでフィルタリングできたり、闇鍋モードで曲番号のみ表示したりできます。もっと使いやすくしたいしまだまだアップデートしたいところはあるけどとりあえず公開します。不具合や番号ミス、誤字などは製作者まで投げていただけると助かります。<br />
     製作者:
-    <a href="https://twitter.com/oui_" target="_blank" class="underline">
+    <a
+      href="https://twitter.com/oui_"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="underline">
       @oui_
     </a>
   </p>
