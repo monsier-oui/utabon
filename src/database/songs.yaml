@@ -1193,7 +1193,7 @@
     - GLOWING SIGN@L
 - title: Plus 1 Good Day!
   idol: FRAME
-  JOY:
+  JOY: 610607
   DAM: 4576-16
   tags:
     - GLOWING SIGN@L
@@ -1242,42 +1242,42 @@
 - title: はるかぜバトン
   idol: もふもふえん
   JOY: 498588
-  DAM:
+  DAM: 3294-83
   tags:
     - GLOWING SIGN@L
 - title: そだてっ！たいむかぷせる
   idol: もふもふえん
   JOY:
-  DAM:
+  DAM: 3294-84
   tags:
     - GLOWING SIGN@L
 - title: Infinite Octave!
   idol: Altessimo
-  JOY:
-  DAM:
+  JOY: 610606
+  DAM: 3294-79
   tags:
     - GLOWING SIGN@L
 - title: Sign of Hope
   idol: Altessimo
   JOY:
-  DAM:
+  DAM: 3294-80
   tags:
     - GLOWING SIGN@L
 - title: K.now O.nly
   idol: THE 虎牙道
-  JOY:
-  DAM:
+  JOY: 499896
+  DAM: 3294-04
   tags:
     - GLOWING SIGN@L
 - title: CATCH ME IF YOU CAN
   idol: THE 虎牙道
   JOY:
-  DAM:
+  DAM: 3294-05
   tags:
     - GLOWING SIGN@L
 - title: Made in「 ♪ 」
   idol: F-LAGS
-  JOY:
+  JOY: 610605
   DAM:
   tags:
     - GLOWING SIGN@L
@@ -1289,12 +1289,75 @@
     - GLOWING SIGN@L
 - title: ROUTE77
   idol: 神速一魂
-  JOY:
+  JOY: 611909
   DAM:
   tags:
     - GLOWING SIGN@L
 - title: タソガレドキ、Bluesy
   idol: 神速一魂
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Inner Dignity
+  idol: Jupiter
+  JOY: 612081
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Before long, DELIGHT
+  idol: Jupiter
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Multiple Entertainment Show!
+  idol: S.E.M
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Dance in the school!
+  idol: S.E.M
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Change to Chance
+  idol: DRAMATIC STARS
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Rainy Memories
+  idol: DRAMATIC STARS
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Take a StuMp!
+  idol: 315 ALLSTARS
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: True Horizen
+  idol:
+    - 天ヶ瀬冬馬
+    - 天道輝
+    - 天峰秀
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: VIVA!!ファミリーリズム
+  idol: W
+  JOY:
+  DAM:
+  tags:
+    - GLOWING SIGN@L
+- title: Watchword
+  idol: W
   JOY:
   DAM:
   tags:
@@ -1377,6 +1440,96 @@
     - 49 ELEMENTS
 - title: KARMA
   idol: 眉見鋭心
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: マイドラマティックヒロイン
+  idol: Beit
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: Posession Mind
+  idol: 鷹城恭二
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: KEY to the DREAM
+  idol: ピエール
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: カラフル・シンメトリー
+  idol: 渡辺みのり
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: Growin’Groovin’
+  idol: W
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: HOT INSPIRATION～世界のテッペンYeah！～
+  idol: 蒼井悠介
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: COOL SENSATION～絶対Need！～
+  idol: 蒼井享介
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: SPACY PARADICE
+  idol: Jupiter
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: Tomorrow Gazer
+  idol: 天ヶ瀬冬馬
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: GREETING CHARM
+  idol: 御手洗翔太
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: 素敵にCon grazia!
+  idol: 伊集院北斗
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: Reflection BREAKERS
+  idol: THE 虎牙道
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: Resolution
+  idol: 大河タケル
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: Determined Soul
+  idol: 円城寺道流
+  JOY:
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: From Genius
+  idol: 牙崎漣
   JOY:
   DAM:
   tags:
