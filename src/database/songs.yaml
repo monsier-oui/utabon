@@ -1755,93 +1755,199 @@
 - title: ONE to DREAM!
   idol: FRAME
   JOY: 616407
-  DAM:
+  DAM: 3374-50
   tags:
     - 49 ELEMENTS
 - title: アトモスフィア
   idol: 握野英雄
   JOY: 616674
-  DAM:
+  DAM: 3374-53
   tags:
     - 49 ELEMENTS
 - title: SPARKLE SIGN
   idol: 木村龍
   JOY: 616876
-  DAM:
+  DAM: 3374-55
   tags:
     - 49 ELEMENTS
 - title: Tick Tack Voice
   idol: 信玄誠司
   JOY: 616875
-  DAM:
+  DAM: 3374-54
   tags:
     - 49 ELEMENTS
 - title: Tricolor Rendezvous
   idol: F-LAGS
   JOY: 616298
-  DAM:
+  DAM: 3374-24
   tags:
     - 49 ELEMENTS
 - title: Yell Song
   idol: 秋月涼
   JOY: 616280
-  DAM:
+  DAM: 3374-39
   tags:
     - 49 ELEMENTS
 - title: SASH OF SMILE
   idol: 兜大吾
   JOY: 616279
-  DAM:
+  DAM: 3374-35
   tags:
     - 49 ELEMENTS
 - title: 筆跡の彼方
   idol: 九十九一希
   JOY: 616278
-  DAM:
+  DAM: 3374-36
   tags:
     - 49 ELEMENTS
 - title: Eclipse of the Heart
   idol: Legenders
-  JOY:
-  DAM:
+  JOY: 618028
+  DAM: 3373-89
   tags:
     - 49 ELEMENTS
 - title: Radiance of Heart
   idol: 葛之葉雨彦
-  JOY:
-  DAM:
+  JOY: 618052
+  DAM: 3373-93
   tags:
     - 49 ELEMENTS
 - title: you're
   idol: 北村想楽
-  JOY:
-  DAM:
+  JOY: 617989
+  DAM: 3374-02
   tags:
     - 49 ELEMENTS
 - title: Sail→Light→Sail
   idol: 古論クリス
-  JOY:
-  DAM:
+  JOY: 618051
+  DAM: 3373-94
   tags:
     - 49 ELEMENTS
 - title: CALLING
   idol: 神速一魂
-  JOY:
-  DAM:
+  JOY: 618058
+  DAM: 3374-40
   tags:
     - 49 ELEMENTS
 - title: 熱情！ Burning Voltage
   idol: 紅井朱雀
-  JOY:
-  DAM:
+  JOY: 618041
+  DAM: 3374-37
   tags:
     - 49 ELEMENTS
 - title: Moon Shape/明鏡止水
   idol: 黒野玄武
-  JOY:
+  JOY: 618040
+  DAM: 3374-38
+  tags:
+    - 49 ELEMENTS
+- title: もふ・きゅ～と・デイズ☆
+  idol: もふもふえん
+  JOY: 619587
+  DAM: 3378-55
+  tags:
+    - 49 ELEMENTS
+- title: トキメキ・ぷろろーぐ!
+  idol: 岡村直央
+  JOY: 619824
+  DAM: 3378-59
+  tags:
+    - 49 ELEMENTS
+- title: リトルマイシューズ
+  idol: 橘志狼
+  JOY: 619823
+  DAM: 3378-60
+  tags:
+    - 49 ELEMENTS
+- title: ぽっぷこーん・くろーぜっと！
+  idol: 姫野かのん
+  JOY: 619822
+  DAM: 3378-63
+  tags:
+    - 49 ELEMENTS
+- title: BeSide EMotion
+  idol: S.E.M
+  JOY: 619693
+  DAM: 3378-54
+  tags:
+    - 49 ELEMENTS
+- title: Quod Erat Demonstrandum
+  idol: 硲道夫
+  JOY: 619694
+  DAM: 3378-62
+  tags:
+    - 49 ELEMENTS
+- title: Life is Beautiful!
+  idol: 舞田類
+  JOY: 619586
+  DAM: 3378-64
+  tags:
+    - 49 ELEMENTS
+- title: Fireworks -Wanna Be A Star-
+  idol: 山下次郎
+  JOY: 619585
+  DAM: 3378-61
+  tags:
+    - 49 ELEMENTS
+- title: 愛笑華！
+  idol: 彩
+  JOY: 621091
   DAM:
   tags:
     - 49 ELEMENTS
+- title: わんだふる哉、人生！
+  idol: 猫柳キリオ
+  JOY: 621087
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: 今宵、笑むように
+  idol: 華村翔真
+  JOY: 621086
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: ゆきゆきて華やかに
+  idol: 清澄九郎
+  JOY: 621085
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: S!T!A!R!ting
+  idol: DRAMATIC STARS
+  JOY: 620982
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: Beginning Tomorrow
+  idol: 天道輝
+  JOY: 621090
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: My Starry Song
+  idol: 桜庭薫
+  JOY: 621089
+  DAM:
+  tags:
+    - 49 ELEMENTS
+- title: スカイスケープノート
+  idol: 柏木翼
+  JOY: 621088
+  DAM:
+  tags:
+    - 49 ELEMENTS
+
+# F@NTASTIC COMBINATION
+- title: Dramatic Anthem
+  idol:
+    - DRAMATIC STARS
+    - S.E.M
+  JOY: 621225
+  DAM:
+  tags:
+    - F@NTASTIC COMBINATION
 
 # パッション爆裂！○○大作戦
 - title: Genesis Contact
@@ -1911,3 +2017,54 @@
   idol: THE IDOLM@STER FIVE STARS!!!!!
   JOY: 492198
   DAM: 4551-90
+- title: 幻想のUtopia
+  idol:
+    - ピエール
+    - 蒼井悠介
+    - 蒼井享介
+    - 握野英雄
+    - 木村龍
+    - 秋山隼人
+    - 冬美旬
+    - 榊夏来
+    - 若里春名
+    - 紅井朱雀
+    - 東雲荘一郎
+    - アスラン＝ベルゼビュートⅡ世
+    - 岡村直央
+    - 硲道夫
+    - 大河タケル
+    - 牙崎漣
+    - 天峰秀
+    - 花園百々人
+    - 眉見鋭心
+  JOY:
+  DAM:
+- title: 安寧のDystopia
+  idol:
+    - 天ヶ瀬冬馬
+    - 伊集院北斗
+    - 都築圭
+    - 神楽麗
+    - 渡辺みのり
+    - 信玄誠司
+    - 華村翔真
+    - 清澄九郎
+    - 伊瀬谷四季
+    - 神谷幸広
+    - 卯月巻緒
+    - 水嶋咲
+    - 橘志狼
+    - 舞田類
+    - 山下次郎
+    - 円城寺道流
+    - 兜大吾
+    - 九十九一希
+    - 葛之葉雨彦
+    - 北村想楽
+  JOY:
+  DAM:
+- title: CRYST@LOUD
+  idol: THE IDOLM@STER FIVE STARS!!!!!
+  JOY: 617215
+  DAM: 3350-30
