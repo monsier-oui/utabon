@@ -1,5 +1,5 @@
 import { get, writable } from 'svelte/store';
-import shuffle from 'shuffle-array';
+import arrayShuffle from 'array-shuffle';
 
 import type { Song } from '../@types';
 
@@ -40,11 +40,12 @@ const useStore = () => {
   };
 
   const random = (n) => {
-    let result = songsData;
+    let result = [...songsData];
     if (get(provider) !== '') {
       result = result.filter((song: Song) => song[get(provider)] !== null);
     }
-    set(shuffle.pick(result, { copy: true, picks: n }));
+    const shuffled = arrayShuffle(result);
+    set(shuffled.splice(0, n));
   };
 
   return { subscribe, set, update, random };
