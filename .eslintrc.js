@@ -4,6 +4,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2019,
     sourceType: 'module',
+    extraFileExtensions: ['.svelte'],
   },
   env: {
     es6: true,
@@ -15,11 +16,15 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'prettier',
   ],
-  plugins: ['svelte3', '@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint', 'prettier'],
   overrides: [
     {
       files: ['*.svelte'],
-      processor: 'svelte3/svelte3',
+      parser: 'svelte-eslint-parser',
+      parserOptions: {
+        parser: '@typescript-eslint/parser',
+      },
+      extends: ['plugin:svelte/recommended', 'plugin:svelte/prettier'],
     },
   ],
   settings: {
