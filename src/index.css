@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.filters {
+  max-height: 40vh;
+  overflow: auto;
+  background:
+    linear-gradient(#fff 30%, hsla(0, 0%, 100%, 0)),
+    linear-gradient(hsla(0, 0%, 100%, 0), #fff 70%) 0 100%,
+    radial-gradient(farthest-side at 50% 0, rgba(0, 0, 0, 0.2), transparent),
+    radial-gradient(farthest-side at 50% 100%, rgba(0, 0, 0, 0.2), transparent)
+      0 100%;
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: repeat, repeat, repeat, repeat;
+  background-attachment: scroll, scroll, scroll, scroll;
+  background-size: auto, auto, auto, auto;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-size:
+    100% 40px,
+    100% 40px,
+    100% 14px,
+    100% 14px;
+  background-attachment: local, local, scroll, scroll;
+
+  label:has(:checked) {
+    background: linear-gradient(transparent 60%, #7dd3fc 0);
+  }
+}

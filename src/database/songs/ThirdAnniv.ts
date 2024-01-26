@@ -1,0 +1,88 @@
+import type Song from '@/types/Song'
+
+export const ThirdAniv: Song[] = [
+  {
+    title: 'Reversed Masquerade',
+    idols: ['Café Parade'],
+    JOY: '426330',
+    DAM: '4400-81',
+    tags: ['3rd ANNIVERSARY DISC'],
+  },
+  {
+    title: "Tone's Destiny",
+    idols: ['Altessimo'],
+    JOY: '426415',
+    DAM: '4400-79',
+    tags: ['3rd ANNIVERSARY DISC'],
+  },
+  {
+    title: 'Symphonic Brave',
+    idols: ['Legenders'],
+    JOY: '427514',
+    DAM: '4400-86',
+    tags: ['3rd ANNIVERSARY DISC'],
+  },
+  {
+    title: 'Eternal Fantasia',
+    idols: ['Café Parade', 'Altessimo', 'Legenders'],
+    JOY: '425973',
+    DAM: '4400-82',
+    tags: ['3rd ANNIVERSARY DISC'],
+  },
+  {
+    title: 'Swing Your Leaves',
+    idols: ['FRAME'],
+    JOY: '426685',
+    DAM: '4401-82',
+    tags: ['3rd ANNIVERSARY DISC'],
+  },
+  {
+    title: '伝えたいのはこんなきもち',
+    idols: ['もふもふえん'],
+    JOY: '426686',
+    DAM: '4401-96',
+    tags: ['3rd ANNIVERSARY DISC'],
+  },
+  {
+    title: '♡Cupids!',
+    idols: ['F-LAGS'],
+    JOY: '426687',
+    DAM: '4401-81',
+    tags: ['3rd ANNIVERSARY DISC'],
+  },
+  {
+    title: 'Compass Gripper!!!',
+    idols: ['FRAME', 'もふもふえん', 'F-LAGS'],
+    JOY: '426688',
+    DAM: '4401-83',
+    tags: ['3rd ANNIVERSARY DISC'],
+  },
+  {
+    title: '桜彩',
+    idols: ['彩'],
+    JOY: '427882',
+    DAM: '4405-83',
+    tags: ['3rd ANNIVERSARY DISC'],
+  },
+  {
+    title: 'RIGHT WAY, SOUL MATE',
+    idols: ['神速一魂'],
+    JOY: '427881',
+    DAM: '4405-86',
+    tags: ['3rd ANNIVERSARY DISC'],
+  },
+  {
+    title: 'RAY OF LIGHT',
+    idols: ['THE 虎牙道'],
+    JOY: '427880',
+    DAM: '4405-68',
+    tags: ['3rd ANNIVERSARY DISC'],
+  },
+  {
+    title: '笑顔の祭りにゃ、福来る',
+    idols: ['彩', '神速一魂', 'THE 虎牙道'],
+    JOY: '427879',
+    DAM: '4405-84',
+    tags: ['3rd ANNIVERSARY DISC'],
+  },
+]
