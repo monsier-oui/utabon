@@ -108,7 +108,7 @@ const App = () => {
     <div className="container my-6 bg-white text-neutral-600">
       <Header />
 
-      <div className="mt-4 flex gap-2">
+      <div className="mt-8 flex gap-2">
         {['JOY', 'DAM'].map((provider) => (
           <label key={provider} className="flex cursor-pointer gap-1">
             <input
