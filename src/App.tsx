@@ -2,6 +2,7 @@ import arrayShuffle from 'array-shuffle'
 import React, { useState } from 'react'
 
 import Aside from '@/components/Aside'
+import Button from '@/components/Button'
 import Header from '@/components/Header'
 import idolsData from '@/database/idols'
 import songsData from '@/database/songs/index'
@@ -166,16 +167,10 @@ const App = () => {
         ))}
       </ul>
       <div className="mt-3 flex flex-wrap gap-4">
-        <button
-          className="py-2 px-5 text-white text-sm font-bold bg-keycolor rounded-full"
-          onClick={random}>
+        <Button color="primary" onClick={random}>
           ランダム10連
-        </button>
-        <button
-          className="py-2 px-5 text-white text-sm font-bold bg-neutral-400 rounded-full"
-          onClick={reset}>
-          リセット
-        </button>
+        </Button>
+        <Button onClick={reset}>リセット</Button>
       </div>
 
       <div className="mt-8">
