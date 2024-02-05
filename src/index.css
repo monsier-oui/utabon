@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color: theme('colors.primary.500');
+}
+
 .filters {
-  max-height: 40vh;
-  overflow: auto;
+  @apply max-h-[40vh] overflow-auto;
   background:
     linear-gradient(#fff 30%, hsla(0, 0%, 100%, 0)),
     linear-gradient(hsla(0, 0%, 100%, 0), #fff 70%) 0 100%,
@@ -23,8 +26,4 @@
     100% 14px,
     100% 14px;
   background-attachment: local, local, scroll, scroll;
-
-  label:has(:checked) {
-    background: linear-gradient(transparent 60%, #7dd3fc 0);
-  }
 }

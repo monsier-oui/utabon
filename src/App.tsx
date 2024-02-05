@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import Aside from '@/components/Aside'
 import Button from '@/components/Button'
 import Header from '@/components/Header'
+import Tag from '@/components/Tag'
 import idolsData from '@/database/idols'
 import songsData from '@/database/songs/index'
 import type Song from '@/types/Song'
@@ -143,36 +144,25 @@ const App = () => {
           闇鍋モード
         </label>
       </div>
-      <ul className="filters mt-4 flex flex-wrap gap-y-1 gap-x-2">
+      <ul className="filters mt-4 flex flex-wrap gap-x-2 gap-y-1">
         {tags.map((tag) => (
-          <label
+          <Tag
             key={tag}
-            className="relative py-1 text-sm cursor-pointer before:content-['#']">
-            <input
-              type="radio"
-              name="tags"
-              value={tag}
-              checked={options.tags.includes(tag)}
-              onChange={handleOptionsChange}
-              className="absolute opacity-0"
-            />
-            {tag}
-          </label>
+            name="tags"
+            value={tag}
+            onChange={handleOptionsChange}
+            checked={options.tags.includes(tag)}
+          />
         ))}
-        {idols.map(({ name }) => (
-          <label
+        {idols.map(({ name, color }) => (
+          <Tag
             key={name}
-            className="relative cursor-pointer py-1 text-sm before:content-['#']">
-            <input
-              type="checkbox"
-              name="idols"
-              value={name}
-              checked={options.idols.includes(name)}
-              onChange={handleOptionsChange}
-              className="absolute opacity-0"
-            />
-            {name}
-          </label>
+            name="idols"
+            value={name}
+            onChange={handleOptionsChange}
+            checked={options.idols.includes(name)}
+            color={color}
+          />
         ))}
       </ul>
       <div className="mt-3 flex flex-wrap gap-4">
