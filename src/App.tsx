@@ -16,8 +16,17 @@ const tags: string[] = [
       .flat()
   ),
 ]
-const idols: string[] = [
-  ...new Set(idolsData.map((idol) => [idol.unit, idol.name]).flat()),
+const idols: { name: string; color: string }[] = [
+  ...new Set(
+    idolsData
+      .map(({ unit, color, members }) => [
+        { name: unit, color },
+        ...members.map(({ name, color }) => {
+          return { name, color }
+        }),
+      ])
+      .flat()
+  ),
 ]
 
 const App = () => {
@@ -150,19 +159,19 @@ const App = () => {
             {tag}
           </label>
         ))}
-        {idols.map((idol) => (
+        {idols.map(({ name }) => (
           <label
-            key={idol}
-            className="relative py-1 text-sm cursor-pointer before:content-['#']">
+            key={name}
+            className="relative cursor-pointer py-1 text-sm before:content-['#']">
             <input
               type="checkbox"
               name="idols"
-              value={idol}
-              checked={options.idols.includes(idol)}
+              value={name}
+              checked={options.idols.includes(name)}
               onChange={handleOptionsChange}
               className="absolute opacity-0"
             />
-            {idol}
+            {name}
           </label>
         ))}
       </ul>

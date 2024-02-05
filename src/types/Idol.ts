@@ -1,6 +1,10 @@
 type Idol = {
-  name: string
   unit: string
+  color: string
+  members: {
+    name: string
+    color: string
+  }[]
 }
 
 export default Idol
