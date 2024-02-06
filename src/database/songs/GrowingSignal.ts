@@ -145,7 +145,7 @@ export const GrowingSignal: Song[] = [
     title: 'タソガレドキ、Bluesy',
     idols: ['神速一魂'],
     JOY: '615532',
-    DAM: undefined,
+    DAM: '3373-96',
     tags: ['GROWING SIGN@L'],
   },
   {
@@ -215,7 +215,7 @@ export const GrowingSignal: Song[] = [
     title: 'Watchword',
     idols: ['W'],
     JOY: '614434',
-    DAM: undefined,
+    DAM: '3373-92',
     tags: ['GROWING SIGN@L'],
   },
   {

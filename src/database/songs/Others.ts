@@ -85,4 +85,10 @@ export const Others: Song[] = [
     JOY: '617215',
     DAM: '3350-30',
   },
+  {
+    title: 'Hands & Claps!',
+    idols: ['315 ALLSTARS'],
+    JOY: undefined,
+    DAM: '3383-37',
+  },
 ]

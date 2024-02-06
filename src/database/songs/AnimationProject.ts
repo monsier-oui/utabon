@@ -120,7 +120,7 @@ export const AnimationProject: Song[] = [
       '舞田類',
     ],
     JOY: undefined,
-    DAM: undefined,
+    DAM: '4452-37',
     tags: ['アニメBD特典曲'],
   },
 ]

@@ -46,7 +46,7 @@ export const Passion: Song[] = [
       '卯月巻緒',
       '北村想楽',
     ],
-    JOY: undefined,
+    JOY: '614631',
     DAM: '4567-36',
     tags: ['パッション爆裂！○○大作戦'],
   },

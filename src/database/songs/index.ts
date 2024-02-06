@@ -1,5 +1,6 @@
 import { AnimationProject } from './AnimationProject'
 import { BeforeSideM } from './BeforeSideM'
+import { CircleOfDelight } from './CircleOfDelight'
 import { FantasticCombination } from './FantasticCombination'
 import { FifthAnniv } from './FifthAnniv'
 import { FourthAnniv } from './FourthAnniv'
@@ -34,6 +35,7 @@ const songs: Song[] = [
   ...PassionateFormation,
   ...FourtyNineElements,
   ...FantasticCombination,
+  ...CircleOfDelight,
   ...Passion,
   ...Others,
 ]
