@@ -19,7 +19,7 @@ const Header = () => (
           text: 'Toot',
         },
         {
-          href: 'https://misskeyshare.link/share.html?text=SideM歌本&url=https://monsier-oui.github.io/utabon/',
+          href: 'https://misskey-hub.net/share/?text=SideM歌本&url=https://monsier-oui.github.io/utabon/&visibility=public&localOnly=0',
           Icon: SiMisskey,
           className: 'bg-brand-misskey',
           text: 'Note',
@@ -27,7 +27,7 @@ const Header = () => (
       ].map(({ href, Icon, className, text }, i) => (
         <li key={i}>
           <a
-            href={href}
+            href={encodeURI(href)}
             className={`flex items-center gap-1.5 rounded-full px-3 py-1.5 text-center text-xs font-medium text-white shadow-sm ${className}`}
             target="_blank"
             rel="noopener noreferrer">
